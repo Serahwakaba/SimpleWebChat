@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./contacts.css";
+import ContactListItems from "./contactListItems";
 
 
 export default class Contacts extends Component{
@@ -24,7 +25,22 @@ export default class Contacts extends Component{
       </button>
     </div>
   </div>
-    </div>
+  <div className="contactList__items">
+  {this.state.allChats.map((item, index) => {
+    return (
+      <ContactListItems
+        name={item.name}
+        key={item.id}
+        animationDelay={index + 1}
+        active={item.active ? "active" : ""}
+        isOnline={item.isOnline ? "active" : ""}
+        image={item.image}
+      />
+    );
+  })}
+  
+  </div>
+  </div>
       
           );
     }
