@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./chatContent.css";
+import "./userProfile.css";
 
 
-export default class ChatContent extends Component{
+export default class UserProfile extends Component{
 
     render(){
         return (
