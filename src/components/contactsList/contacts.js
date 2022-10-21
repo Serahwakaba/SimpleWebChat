@@ -15,7 +15,7 @@ export default class Contacts extends Component{
         },
         {
           image:
-            "https://pbs.twimg.com/profile_images/1055263632861343745/vIqzOHXj.jpg",
+            "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWZyaWNhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
           id: 2,
           name: "Charles Njuguna",
           active: false,
@@ -23,7 +23,7 @@ export default class Contacts extends Component{
         },
         {
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQEZrATmgHOi5ls0YCCQBTkocia_atSw0X-Q&usqp=CAU",
+            "https://images.unsplash.com/photo-1507038732509-8b1a9623223a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFmcmljYW4lMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
           id: 3,
           name: "Amos Mathu",
           active: false,
@@ -31,7 +31,7 @@ export default class Contacts extends Component{
         },
         {
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ6tM7Nj72bWjr_8IQ37Apr2lJup_pxX_uZA&usqp=CAU",
+            "https://images.unsplash.com/photo-1504199367641-aba8151af406?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWZyaWNhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
           id: 4,
           name: "James Njuguna",
           active: false,
@@ -49,15 +49,10 @@ export default class Contacts extends Component{
 
     render(){
         return ( <div className="main__contacts">
-        <button className="btn">
-        <i className="fa fa-plus"></i>
-        <span>New conversation</span>
-      </button>
+    
       <div className="contactlist__heading">
-      <h2>Chats</h2>
-      <button className="btn-nobg">
-        <i className="fa fa-ellipsis-h"></i>
-      </button>
+      <h2>Whatsaap</h2>
+  
     </div>
     <div className="contactList__search">
     <div className="search_wrap">

@@ -11,9 +11,7 @@ export default class ConversationBody extends Component{
         return (
           <div className="main__chat">
           <Contacts />
-
           <ChatContent />
-          
           </div>
         );
       }

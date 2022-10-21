@@ -10,7 +10,7 @@ export default class ChatContent extends Component {
     {
       key: 1,
       image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+        "https://images.unsplash.com/photo-1628144029346-8a98676311b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
       type: "",
       msg: "Hi Wendy, How are you?",
     },
@@ -31,7 +31,7 @@ export default class ChatContent extends Component {
     {
       key: 4,
       image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+        "https://images.unsplash.com/photo-1628144029346-8a98676311b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
       type: "",
       msg: "Doing Greet too",
     },
@@ -45,7 +45,7 @@ export default class ChatContent extends Component {
     {
       key: 6,
       image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+        "https://images.unsplash.com/photo-1628144029346-8a98676311b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
       type: "",
       msg: "Tell me how it all went",
     },
