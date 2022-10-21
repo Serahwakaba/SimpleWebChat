@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Avatar from "../chatList/Avatar";
+import Avatar from "../contactsList/avatar";
+
 
 export default class ChatItem extends Component {
   // eslint-disable-next-line no-useless-constructor
