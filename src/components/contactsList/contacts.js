@@ -7,7 +7,7 @@ export default class Contacts extends Component{
     allChatUsers = [
         {
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+            "https://media-exp1.licdn.com/dms/image/C4D03AQGNV_X1iEUX5A/profile-displayphoto-shrink_800_800/0/1635765669993?e=1671667200&v=beta&t=0OhwPs6MwV2Ej_aVHToHDX_RjqEABnMRHPOb5DhJ3Js",
           id: 1,
           name: "Wendy Wangari",
           active: true,

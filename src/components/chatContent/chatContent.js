@@ -17,14 +17,14 @@ export default class ChatContent extends Component {
     {
       key: 2,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQGNV_X1iEUX5A/profile-displayphoto-shrink_800_800/0/1635765669993?e=1671667200&v=beta&t=0OhwPs6MwV2Ej_aVHToHDX_RjqEABnMRHPOb5DhJ3Js",
       type: "other",
       msg: "I am fine.",
     },
     {
       key: 3,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQGNV_X1iEUX5A/profile-displayphoto-shrink_800_800/0/1635765669993?e=1671667200&v=beta&t=0OhwPs6MwV2Ej_aVHToHDX_RjqEABnMRHPOb5DhJ3Js",
       type: "other",
       msg: "What about you?",
     },
@@ -38,7 +38,7 @@ export default class ChatContent extends Component {
     {
       key: 5,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQGNV_X1iEUX5A/profile-displayphoto-shrink_800_800/0/1635765669993?e=1671667200&v=beta&t=0OhwPs6MwV2Ej_aVHToHDX_RjqEABnMRHPOb5DhJ3Js",
       type: "other",
       msg: "You really missed out on yesterdays ",
     },
@@ -52,7 +52,7 @@ export default class ChatContent extends Component {
     {
       key: 7,
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQGNV_X1iEUX5A/profile-displayphoto-shrink_800_800/0/1635765669993?e=1671667200&v=beta&t=0OhwPs6MwV2Ej_aVHToHDX_RjqEABnMRHPOb5DhJ3Js",
       type: "other",
       msg: "Will call u later and tell the tea",
     },
@@ -101,7 +101,7 @@ export default class ChatContent extends Component {
             <div className="current-chatting-user">
               <Avatar
                 isOnline="active"
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
+                image="https://media-exp1.licdn.com/dms/image/C4D03AQGNV_X1iEUX5A/profile-displayphoto-shrink_800_800/0/1635765669993?e=1671667200&v=beta&t=0OhwPs6MwV2Ej_aVHToHDX_RjqEABnMRHPOb5DhJ3Js"
               />
               <p>Wendy Wangari</p>
             </div>
