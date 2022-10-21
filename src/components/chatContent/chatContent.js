@@ -1,4 +1,4 @@
-import React, { Component, useState, createRef, useEffect } from "react";
+import React, { Component, createRef } from "react";
 
 import "./chatContent.css";
 import Avatar from "../contactsList/avatar";
@@ -12,7 +12,7 @@ export default class ChatContent extends Component {
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "Hi Tim, How are you?",
+      msg: "Hi Wendy, How are you?",
     },
     {
       key: 2,
@@ -33,28 +33,28 @@ export default class ChatContent extends Component {
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "Awesome these days.",
+      msg: "Doing Greet too",
     },
     {
       key: 5,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       type: "other",
-      msg: "Finally. What's the plan?",
+      msg: "You really missed out on yesterdays ",
     },
     {
       key: 6,
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "what plan mate?",
+      msg: "Tell me how it all went",
     },
     {
       key: 7,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       type: "other",
-      msg: "I'm taliking about the tutorial",
+      msg: "Will call u later and tell the tea",
     },
   ];
 
@@ -72,8 +72,8 @@ export default class ChatContent extends Component {
 
   componentDidMount() {
     window.addEventListener("keydown", (e) => {
-      if (e.keyCode == 13) {
-        if (this.state.msg != "") {
+      if (e.keyCode === 13) {
+        if (this.state.msg !== "") {
           this.chatItms.push({
             key: 1,
             type: "",
@@ -103,7 +103,7 @@ export default class ChatContent extends Component {
                 isOnline="active"
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
               />
-              <p>Tim Hover</p>
+              <p>Wendy Wangari</p>
             </div>
           </div>
 

@@ -64,7 +64,7 @@
     padding: 1px;
   }
   .chat__item__content {
-    background-color: #4462ff;
+    background-color:  #00FF00;
     color: #fff;
     padding: 15px;
     border-radius: 10px 10px 0 10px;
@@ -90,7 +90,7 @@
     transform-origin: left;
   }
   .chat__item.other .chat__item__content {
-    background-color: #fff;
+    background-color: #FFA500;
     color: #000;
     border-radius: 10px 10px 10px 0;
     max-width: 50%;
@@ -141,6 +141,6 @@
     outline: none;
   }
   #sendMsgBtn {
-    background-color: #3b5bfe;
+    background-color: #000;
     color: #fff;
   }
