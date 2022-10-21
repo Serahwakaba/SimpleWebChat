@@ -43,9 +43,25 @@ export default class ChatContent extends Component {
                   <div ref={this.messagesEndRef} />
                 </div>
               </div>
+              <div className="content__footer">
+              <div className="sendNewMessage">
+                <button className="addFiles">
+                  <i className="fa fa-plus"></i>
+                </button>
+                <input
+                  type="text"
+                  placeholder="Type a message here"
+                  onChange={this.onStateChange}
+                  value={this.state.msg}
+                />
+                <button className="btnSendMsg" id="sendMsgBtn">
+                  <i className="fa fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
                   </div>
 
-                  </div>
  
         )
       
