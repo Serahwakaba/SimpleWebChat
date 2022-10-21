@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Navigation from "./components/navigation/navigation";
 import ConversationBody from "./components/conversationBody/ConversationBody";

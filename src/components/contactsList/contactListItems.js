@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Avatar from "./Avatar";
-
+import Avatar from "./avatar";
 
 
 export default class ContactListItems extends Component{
 
+    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
       }
